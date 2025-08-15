@@ -1,1 +1,39 @@
 splunk-*.deb
+# API keys, tokens, passwords
+# Secrets & tokens
+*.env
+*.key
+*.pem
+credentials.json
+secrets.yml
+
+# Config files (sanitized versions can be committed)
+config.ini
+wazuh-agent.conf
+splunk-*.conf
+
+# Logs
+*.log
+logs/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.idea/
+.vscode/
+
+# Large binaries / installers
+*.deb
+*.exe
+*.iso
+*.tar.gz
+*.zip
+*.msi
+
+# Backup / temporary
+*.bak
+*.old
+*.tmp
+
